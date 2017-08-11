@@ -12,6 +12,8 @@ import java.util.function.Predicate;
  */
 public class LambdaExpressions {
 	
+	protected String s ;
+	
 	public static Function<String, String> fun =  (String x) ->{x= x+"23";
 	return x;
 	};
